@@ -1,0 +1,11 @@
+{"index": {"_id": "1"}}
+{"id":  "1", "name": "Apples", "catId":  1}
+
+{"index": {"_id": "2"}}
+{"id":  "2", "name": "Oranges", "catId":  1}
+
+{"index": {"_id": "3"}}
+{"id":  "3", "name": "Bananas", "catId":  1}
+
+{"index": {"_id": "4"}}
+{"id":  "4", "name": "Carrot", "catId":  2}

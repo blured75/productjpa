@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: product
+
+server:
+  port: 8082
+  error:
+    include-message: always
+    management.endpoints.web.exposure.include: '*'
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: '*'
+
+
+management:
+  health:
+    hazelcast:
+      enabled: false
+
+logging.level.org.hibernate.tool.hbm2ddl: DEBUG
+logging.level.org.hibernate.SQL: DEBUG
+logging.level.com.blured: DEBUG
+
